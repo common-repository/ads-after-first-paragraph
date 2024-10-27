@@ -1,0 +1,98 @@
+.fiadds{
+    font-size:16px;
+	max-width:10em;
+	box-sizing:border-box;
+	height:auto;
+}
+
+.fiadd-left-ads,.fiadd-right-ads{
+	display:inline-block;
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	height: 37.5em;
+	margin: auto;
+	z-index : 1000;
+	background-color: white;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.fiadds  img{
+	height: auto;
+	max-width: 100%;
+	box-sizing: inherit;
+}
+
+.fiadd-left-ads{
+	left:0;
+}
+
+.fiadd-right-ads{
+	right:0;
+}
+
+@media screen and (max-width: 768px)
+{
+	.fiadd-left-ads,.fiadd-right-ads{
+		display:none;
+	}
+}
+
+/* style for iPad only */
+@media only screen and (device-width:768px)
+{
+    .fiadd-left-ads,.fiadd-right-ads{
+		display: inline-block;
+	}
+}
+/*
+@media screen and (max-width: 480px) {
+	
+	.fiadd-left-ads,.fiadd-right-ads{
+		display: inline-block;
+	}
+	
+	.fiadd-left-ads,.fiadd-right-ads{
+		height: 4em;
+		width: 3.5em;
+		margin: auto;
+	}
+}*/
+
+/*
+@media only screen and (device-width:768px)
+{
+    .fiadd-left-ads,.fiadd-right-ads{
+		display: inline-block;
+	}
+}
+
+@media screen and (max-width: 769px){
+	.fiadd-left-ads,.fiadd-right-ads{
+		display:none;
+	}
+}
+	
+@media screen and (max-width: 769px){
+	.fiadd-left-ads,.fiadd-right-ads{
+		height: 20em;
+		width: 7.5em;
+	}
+}
+	
+@media screen and (max-width: 480px) {
+	.fiadd-left-ads,.fiadd-right-ads{
+		height: 4em;
+		width: 3.5em;
+		margin: auto;
+	}
+}
+	
+@media screen and (max-width: 360px) {
+	.fiadd-left-ads,.fiadd-right-ads{
+		height: 4em;
+		width: 3.5em;
+		margin: auto;
+	}
+}
+*/
